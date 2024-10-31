@@ -1,0 +1,38 @@
+#multi_part_post_select_chosen {
+	margin: 5px 0 8px;
+}
+
+#multi_part_list {
+	list-style-position:inside;
+	margin: 0;
+	display: inline-block;
+}
+
+#multi_part_list li {
+	cursor: move;
+	position: relative;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	border: 1px solid #ccc;
+	background: #e2e2e2;
+	padding: 0.5em 2em 0.5em 1em;
+}
+
+.multi-remove {
+	position: absolute;
+	right: 0;
+	top: 6px;
+	color: #a00;
+}
+
+.multi-remove:hover {
+	color: red;
+}
+
+#multi_part_confirm {
+	display: none;
+}
+
+.multi_part_confirm_name {
+	font-weight: bold;
+}
